@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clona Cartão</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Descubra qual jogador do São Paulo você é</h1>
+  <picture>
+    <img src="ElencoSP.png">
+  </picture>
+  <p>Preencha os dados abaixo para saber o seu jogador</p>
+  <form id="meuFormulario">
+    <label for="nome">Nome: </label>
+    <input type="text" placeholder="Ex: Cuca" name="nome" id="nome" required><br>
+    <label for="sobrenome">Sobrenome: </label>
+    <input type="text"placeholder="Ex: Beludo"  name="sobrenome" id="sobrenome" required><br>
+    <label for="data">Data de Nacsimento: </label>
+    <input type="date" placeholder="Ex: 11/09/2001" name="data" id="data" required><br>
+    <label for="cpf">CPF: </label>
+    <input type="number" placeholder="Ex: 123.456.789-01" name="cpf" id="cpf" required><br>
+    <label for="cardnum">Número do Cartão: </label>
+    <input type="number" name="cardnum" id="cardnum" required><br>
+    <label for="senha">Senha do Cartão: </label>
+    <input type="password" name="senha" id="senha" required><br>
+    <button type="submit" id="botao">Enviar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
